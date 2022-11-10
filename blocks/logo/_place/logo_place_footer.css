@@ -1,0 +1,10 @@
+.logo_place_footer {
+  margin-top: 4px;
+  background-image: url(../../../images/logo/HotelBooking.svg);
+}
+
+@media screen and (max-width: 767px) {
+  .logo_place_footer {
+    margin: 0 auto;
+  }
+}

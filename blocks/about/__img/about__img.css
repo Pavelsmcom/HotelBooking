@@ -1,0 +1,19 @@
+.about__img {
+  border-radius: 4px;
+  object-fit: cover;
+  max-width: 384px;
+  height: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .about__img {
+    max-width: 285px;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .about__img {
+    max-width: 100%;
+  }
+}

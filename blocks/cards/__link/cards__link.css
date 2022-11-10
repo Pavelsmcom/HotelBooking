@@ -1,0 +1,13 @@
+.cards__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #424f7b;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.cards__link:hover {
+  color: #fab047;
+  text-decoration: none;
+}

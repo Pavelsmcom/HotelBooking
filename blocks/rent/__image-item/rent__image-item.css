@@ -1,0 +1,9 @@
+.rent__image-item {
+    background: url("../../../images/house1-1.jpg") center center/cover no-repeat;
+    height: 0;
+    padding-bottom: calc(((100% - 48px) / 3) * 3.27);
+    width: calc((100% - 48px) / 3);
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}

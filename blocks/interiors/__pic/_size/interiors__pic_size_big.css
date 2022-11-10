@@ -1,0 +1,17 @@
+.interiors__pic_size_big {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+@media screen and (max-width: 1023px) {
+  .interiors__pic_size_big {
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+@media screen and (max-width: 767px) {
+  .interiors__pic_size_big {
+    grid-row-end: 1;
+    grid-column-end: 1;
+  }
+}

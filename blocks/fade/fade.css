@@ -1,0 +1,15 @@
+.fade {
+    animation: fade 2s ease;
+}
+
+@keyframes fade {
+    0% {
+        width: 25%;
+        opacity: 0.3;
+        filter: blur(22px);
+        padding-bottom: 38%;
+        height: 0;
+        margin-top: 65%;
+    }
+    100% {opacity: 1;}
+    }

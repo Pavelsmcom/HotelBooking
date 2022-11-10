@@ -1,0 +1,12 @@
+.cards__item {
+  max-width: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 767px) {
+  .cards__item {
+    padding-bottom: 40px;
+  }
+}

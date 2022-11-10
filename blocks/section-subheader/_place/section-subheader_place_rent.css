@@ -1,0 +1,15 @@
+.section-subheader_place_rent {
+    padding: 0 0 59px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .section-subheader_place_rent {
+        padding: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section-subheader_place_rent {
+        text-align: center;
+    }
+}

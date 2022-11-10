@@ -1,0 +1,12 @@
+.rent__text {
+    min-width: calc(50% - 12px);
+    padding-top: calc((50% - 12px) * 0.2299);
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .rent__text {
+        align-self: center;
+        padding: 0;
+    }
+}

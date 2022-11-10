@@ -1,0 +1,11 @@
+.footer__text_position_logo {
+  padding-top: 13px;
+  max-width: 186px;
+  line-height: 28px;
+}
+@media screen and (max-width: 767px) {
+  .footer__text_position_logo {
+    max-width: 500px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__social-logos {
+  margin: 0;
+  list-style-type: none;
+  padding: 15px 0 19px 4px;
+  max-width: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social-logos {
+    margin: 0 auto;
+    padding: 0;
+  }
+}

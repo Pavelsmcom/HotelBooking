@@ -1,0 +1,16 @@
+.rent__image {
+    display: flex;
+    min-width: calc(50% - 12px);
+    gap: 4%;
+    justify-content: center;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .rent__image {
+        padding-top: 30px;
+        
+    }
+    
+}
+

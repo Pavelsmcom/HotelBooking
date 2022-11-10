@@ -1,0 +1,20 @@
+.slider__button {
+  height: 8px;
+  width: 8px;
+  cursor: pointer;
+  background: rgba(250, 176, 71, 0.35);
+  border: 0;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+.slider__button:hover {
+  background: #fab047;
+  transform: scale(1.5);
+}
+@media screen and (max-width: 767px) {
+  .slider__button {
+    height: 16px;
+    width: 16px;
+  }
+}

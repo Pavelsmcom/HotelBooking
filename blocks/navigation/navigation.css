@@ -1,0 +1,37 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 36px;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 1023px) {
+  .navigation {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navigation {
+    text-align: center;
+    background-color: #0e1734;
+    opacity: 0.001;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 19px;
+    right: 19px;
+    width: 25px;
+    height: 22px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .navigation:hover {
+    opacity: 1;
+    padding: 20px 0;
+    top: 20px;
+    width: calc(100vw - 38px);
+    min-height: 140px;
+  }
+}

@@ -1,0 +1,24 @@
+.interiors__slider {
+  position: relative;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1090fr 344fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  margin: 0 auto;
+  padding: 0 3px;
+}
+@media screen and (max-width: 1023px) {
+  .interiors__slider {
+    max-width: 1023px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 582fr 194fr;
+  }
+}
+@media screen and (max-width: 767px) {
+  .interiors__slider {
+    max-width: 767px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}

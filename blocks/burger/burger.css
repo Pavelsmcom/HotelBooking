@@ -1,0 +1,13 @@
+.burger {
+    display: none;
+    flex-direction: column;
+    height: 15px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .burger {
+        display: flex;
+    }
+}

@@ -1,0 +1,27 @@
+.benefit__img {
+    object-fit: cover;
+    border-radius: 4px;
+    max-width: 384px;
+    height: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .benefit__img {
+        max-width: 360px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .benefit__img {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .benefit__img {
+        max-width: 100%;
+        
+    }
+}

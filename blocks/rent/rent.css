@@ -1,0 +1,23 @@
+.rent {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 80px 120px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+    .rent {
+        align-items: center;
+        padding: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .rent {
+        display: block;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,16 @@
+.slider_position_interiors {
+  position: absolute;
+  bottom: 31px;
+  left: calc((100% * (548 / 1440)) - 34px);
+}
+@media screen and (max-width: 1023px) {
+  .slider_position_interiors {
+    bottom: 22vw;
+    left: calc((100% / 2) - 34px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .slider_position_interiors {
+    display: none;
+  }
+}

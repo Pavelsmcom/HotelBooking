@@ -1,0 +1,19 @@
+.logo {
+    background: url(../../images/logo/HotelBooking__header.svg) center center/contain no-repeat;
+    min-width: 229px;
+    min-height: 39px;
+}
+
+@media screen and (max-width: 1023px) {
+    .logo {
+        min-width: 200px;
+        min-height: 34px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        min-width: 117px;
+        min-height: 17px;
+    }
+}

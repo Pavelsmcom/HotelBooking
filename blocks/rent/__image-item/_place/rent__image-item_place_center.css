@@ -1,0 +1,5 @@
+.rent__image-item_place_center {
+    background: url("../../../../images/house1-2.jpg") center center/cover no-repeat;
+    margin-top: calc(((100% - 48px) / 3) * 3.27 * 0.136);
+}
+

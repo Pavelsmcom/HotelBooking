@@ -1,0 +1,19 @@
+.benefit {
+    padding: 80px 226px 80px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+}
+
+@media screen and (max-width: 1279px) {
+    .benefit {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .benefit {
+        padding: 20px;
+        
+    }
+}
