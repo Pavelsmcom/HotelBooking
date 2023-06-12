@@ -1,17 +1,23 @@
-# HotelBooking
-
-## Обзор
+## Проект HotelBooking
 
 Проект сайта по аренде домов, для загородного отдыха.
 Разрабатывался для конкурса совместно с https://github.com/ArinaGlad
 
-## Использованы следующие технологии:
+## Ссылка на проект: 
 
-**1** Flex
-**2** Grid
-**3** Анимацияна CSS
-**4** Медиазапросы
+[Ссылка на github-pages](https://pavelsmcom.github.io/HotelBooking/)
 
-### Посмотреть в браузере
+## Используемые технологии:
 
-- [Ссылка на github-pages](https://pavelsmcom.github.io/HotelBooking/)
+* Flex;
+* Grid;
+* Анимацияна CSS;
+* Медиазапросы.
+
+## Установка и запуск проекта:
+
+Клонировать репозиторий:
+
+    https://github.com/Pavelsmcom/HotelBooking.git
+
+Запустить index.html
